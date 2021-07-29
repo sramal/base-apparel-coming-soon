@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./css/styles.css">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+</head>
+<body>
+
+  <main class="container">
+
+    <!-- CSS Grid is used to place the 5 cards in correct position -->
+    <!-- Card 1 -->
+    <div class="logo">
+       <img src="./images/logo.svg" alt="Company logo">
+    </div>
+
+
+    <!-- Card 2 -->
+    <div class="message">
+        <h1><span>We're</span><br>coming<br>soon</h1>
+    </div>
+
+
+    <!-- Card 3 -->
+    <div class="paragraph">
+        Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.
+    </div>
+
+
+    <!-- Card 4 -->
+    <div class="email">
+      <form action="" onsubmit="return false" novalidate>
+        <div class="input-group">
+          <input class="input-field" type="email" placeholder="Email Address" onfocus="clearErrorMessage();">
+          <input class="input-button" type="submit" onclick="clickHandler();">
+          <img class="error-icon" src="./images/icon-error.svg" alt="Error icon">
+        </div>
+        <p class="error-message">test</p>
+      </form>
+    </div>
+
+
+    <!-- Card 5 -->
+    <div class="image">
+      <img src="./images/hero-desktop.jpg" alt="Picture of female">
+    </div>
+  </main>
+  
+  <script src="index.js"></script>
+</body>
+</html>
